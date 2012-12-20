@@ -1,0 +1,14 @@
+{
+  "name": "Base64-urlsafe",
+  "description": "Encode/Decode text to base64 for url use.",
+  "version": "0.0.1",
+  "maintainers": [
+    "vanetix <matmcfarland@gmail.com>"
+  ],
+  "url": "https://github.com/vanetix/node-base64-urlsaafe",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  }
+}
