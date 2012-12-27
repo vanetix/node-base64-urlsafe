@@ -16,7 +16,6 @@ Base64.encode = function(str) {
               .replace(/\//, '_')
               .replace(/\+/g, '-');
 };
-
   
 /**
  * Decode the given `str`
@@ -27,6 +26,6 @@ Base64.encode = function(str) {
 Base64.decode = function(str) {
   str = str.replace(/_/g, '/')
            .replace(/-/g, '+');
-
+  
   return new Buffer(str, 'base64').toString('utf8');
 };
