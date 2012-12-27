@@ -2,6 +2,9 @@ node-base64-urlsafe
 ===================
 A simple library to encode and decode long strings into it's equivalent url encoded base 64 representation.
 
+## Installation
+`npm install node-base64-urlsafe`
+
 ## Usage
 ```
 var base64 = require('node-base64-urlsafe');
