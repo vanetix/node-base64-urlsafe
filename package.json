@@ -1,7 +1,7 @@
 {
   "name": "Base64-urlsafe",
   "description": "Encode/Decode text to base64 for url use.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "maintainers": [
     "vanetix <matmcfarland@gmail.com>"
   ],
