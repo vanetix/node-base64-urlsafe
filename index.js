@@ -7,7 +7,7 @@ var Base64 = module.exports = exports;
 /**
  * Encode the given `str`
  *
- * @param {String} str ASCII representation
+ * @param {String} str utf8 representation
  */
 
 Base64.encode = function(str) {
