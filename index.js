@@ -12,8 +12,8 @@ var Base64 = module.exports = exports;
 
 Base64.encode = function(str) {
   return new Buffer(str).toString('base64')
-              .replace(/=+$/, '')
-              .replace(/\//, '_')
+              .replace(/=+$/g, '')
+              .replace(/\//g, '_')
               .replace(/\+/g, '-');
 };
   
