@@ -1,7 +1,7 @@
 {
   "name": "node-base64-urlsafe",
   "description": "Encode/Decode text to base64 for url use.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "maintainers": [
     "vanetix <matmcfarland@gmail.com>"
   ],
